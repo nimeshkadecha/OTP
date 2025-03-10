@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "vercel-php": "git+https://github.com/pmjones/vercel-php.git"
+  }
+}
