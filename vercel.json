@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "*.php",
-      "use": "pmjones/vercel-php"
+      "use": "git+https://github.com/pmjones/vercel-php.git"
     }
   ],
   "routes": [
