@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "builds": [
+    {
+      "src": "*.php",
+      "use": "pmjones/vercel-php"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*).php",
+      "dest": "/$1.php"
+    }
+  ]
+}
