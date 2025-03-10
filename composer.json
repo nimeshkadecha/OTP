@@ -1,0 +1,18 @@
+{
+    "name": "admin/otp",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Otp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nimeshkadecha",
+            "email": "nimeshkadecha4560@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
